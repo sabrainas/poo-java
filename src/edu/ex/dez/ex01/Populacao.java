@@ -16,7 +16,7 @@ public class Populacao {
         }
     }
 
-    public void popMedia(int estado){
+    public double popMedia(int estado){
         if(estado < 0 || estado > estados){
             System.out.println("Estado Inválido!");
         }
@@ -26,6 +26,6 @@ public class Populacao {
             soma += pop[estado][j];
         }
         double media = (double) soma / municipios;
-        System.out.printf("A media do estado %d é %.2f\n", estado, media);
+        return media;
     }
 }
