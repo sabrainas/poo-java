@@ -1,4 +1,4 @@
-package doze;
+package edu.ex.doze;
 
 public class Aluno {
     private String nome;

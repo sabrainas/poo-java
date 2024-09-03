@@ -1,4 +1,4 @@
-package doze.ex02;
+package edu.ex.doze.ex02;
 
 public class TesteFuncionario {
     public static void main(String[] args) {
